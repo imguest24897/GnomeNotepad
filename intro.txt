@@ -2,9 +2,11 @@ Introducing Gnome Simple Notepad V1.0
 
 Designed for Gnome 41
 
+Please note that beta version supports GNOME 3.35
+
 About:
 
-Gnome Simple Notepad V1.0 is a lightweight and intuitive text editor specifically crafted for the Zorin OS 12 Lite operating system. This straightforward yet powerful program allows you to effortlessly create, edit, save, and print text documents.
+Gnome Simple Notepad V1.0 is a lightweight and intuitive text editor specifically crafted for editing your files. This straightforward yet powerful program allows you to effortlessly create, edit, save and type code.
 
 Key Features:
 
@@ -14,11 +16,10 @@ Key Features:
 
     Save and Load Files: Convenient "Save" and "Open" buttons allow you to easily save your current document or open existing files.
 
-    Document Printing: The print function enables you to print your text documents for hardcopy preservation.
-
 System Requirements:
 
     Gnome version: Gnome 41 or above
+    Gnome version BETA VERSION FOR PROGRAM: Gnome 3.35 or higher
     Operation System: Linux Debian/Ubuntu/Fedora
 
 Installation:
@@ -27,10 +28,10 @@ The program comes pre-installed with the Gnome 41 and does not require additiona
 
 Notes:
 
-If you have Gnome 40 or lower installed, the program will display the message: "You cannot run this application on the current version of Gnome."
+If you have Gnome 40/3.35 or lower installed, the program will display the message: "You cannot run this application on the current version of Gnome."
 
 If you have Gnome 45 or higher installed, the program will display the message: "You're running on the maximum supported version of Gnome. Please check the system requirements at www.simplenotepad.gnome.org/?duckpage/help?id=1252554."
 
 Conclusion:
 
-Gnome Simple Notepad V1.0 provides a simple and effective way to work with text documents within the Gnome 41 environment. Whether you need to jot down notes, edit code, or compose a document, this program offers all the necessary tools for a successful workflow.
+Gnome Simple Notepad V1.0 provides a simple and effective way to work with text documents within the Gnome 41/3.35 environment. Whether you need to jot down notes, edit code, or compose a document, this program offers all the necessary tools for a successful workflow.
