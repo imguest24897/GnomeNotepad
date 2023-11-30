@@ -16,13 +16,13 @@ class SimpleNotepad(Gtk.Window):
         scrolled_window.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
         scrolled_window.add(self.textview)
 
-        button_save = Gtk.Button(label="Сохранить")
+        button_save = Gtk.Button(label="Save")
         button_save.connect("clicked", self.on_save_clicked)
 
-        button_open = Gtk.Button(label="Открыть")
+        button_open = Gtk.Button(label="Open")
         button_open.connect("clicked", self.on_open_clicked)
 
-        button_print = Gtk.Button(label="Печать")
+        button_print = Gtk.Button(label="Print")
         button_print.connect("clicked", self.on_print_clicked)
 
         button_test = Gtk.Button(label="Keyboard Test")
@@ -48,7 +48,7 @@ class SimpleNotepad(Gtk.Window):
         self.add(vbox)
 
     def on_save_clicked(self, widget):
-        dialog = Gtk.FileChooserDialog("Сохранить файл", self, Gtk.FileChooserAction.SAVE,
+        dialog = Gtk.FileChooserDialog("Save file", self, Gtk.FileChooserAction.SAVE,
             (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL, Gtk.STOCK_SAVE, Gtk.ResponseType.OK))
 
         response = dialog.run()
@@ -61,7 +61,7 @@ class SimpleNotepad(Gtk.Window):
         dialog.destroy()
 
     def on_open_clicked(self, widget):
-        dialog = Gtk.FileChooserDialog("Открыть файл", self, Gtk.FileChooserAction.OPEN,
+        dialog = Gtk.FileChooserDialog("Open file", self, Gtk.FileChooserAction.OPEN,
             (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL, Gtk.STOCK_OPEN, Gtk.ResponseType.OK))
 
         dialog.set_select_multiple(True)
@@ -90,7 +90,7 @@ class SimpleNotepad(Gtk.Window):
         result = print_operation.run(Gtk.PrintOperationAction.PRINT_DIALOG, None)
 
         if result == Gtk.PrintOperationResult.ERROR:
-            print("Ошибка печати")
+            print("Print Error")
 
     def on_test_clicked(self, widget):
         test_text = ("Test word " * 10 + "\n") * 5
