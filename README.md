@@ -11,4 +11,4 @@ Yes. We working on 1.0.3, editing UI and much more.
 # When 1.0.3 is going to be out?
 1.0.3 is going to be final beta version, and we still working on it and we don't know when 1.0.3 has being out, so please wait while update is releasing and use our latest 1.0.2.
 
-> VovanchikTM .INC (C) 2023 - 2024
+> VovanchikTM .INC (C) 2024 - 2025
